@@ -5,6 +5,6 @@ import lombok.Data;
 @Data
 public class Course {
 
-    private volatile String currency;
-    private volatile double rate;
+    private String currency;
+    private double rate;
 }

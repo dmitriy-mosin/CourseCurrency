@@ -13,10 +13,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Data
 public class CourseCube {
         @XmlAttribute(name = "currency")
-        private volatile String currency;
+        private String currency;
 
         @XmlAttribute(name = "rate")
-        private volatile double rate;
+        private double rate;
 
         public String getCurrency() {
                 return currency;
